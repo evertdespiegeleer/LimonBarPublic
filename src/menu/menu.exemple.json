@@ -1,0 +1,208 @@
+{
+    "food": {
+        "description": "BETA",
+        "subclasses": [
+            {
+                "className": "Lunches",
+                "victuals": [
+                    {
+                        "victualName": "Toast sunny side up",
+                        "id": 4684685445,
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet volutpat consequat mauris nunc congue nisi. Eu mi bibendum neque egestas congue quisque egestas. Commodo quis imperdiet massa tincidunt. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Nibh venenatis cras sed felis eget velit. Ultricies integer quis auctor elit sed vulputate mi sit amet. Quis vel eros donec ac odio. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Leo integer malesuada nunc vel risus. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Lacus sed viverra tellus in hac habitasse platea dictumst. Neque aliquam vestibulum morbi blandit cursus risus at ultrices mi. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Duis at tellus at urna condimentum. Orci phasellus egestas tellus rutrum tellus. Ipsum consequat nisl vel pretium lectus.",
+                        "price": 6,
+                        "pics": ["https://picsum.photos/500/500", "https://picsum.photos/500/500", "https://picsum.photos/500/500"],
+                        "allergens": {
+                            "soy": false,
+                            "egg": true,
+                            "milk": false,
+                            "sesame": true,
+                            "nuts": true,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": true,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Toast Jardin du poete",
+                        "id": 4685435445,
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam aliquam sem et tortor consequat id porta. Risus in hendrerit gravida rutrum. Odio aenean sed adipiscing diam donec adipiscing tristique risus.",
+                        "price": 5,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": true,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": true,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Taco spice must flow",
+                        "id": 813545343,
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 5,
+                        "pics": ["https://picsum.photos/500/500", "https://picsum.photos/500/500", "https://picsum.photos/500/500"],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": true,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    }
+                ]
+            },
+            {
+                "className": "Desserts",
+                "victuals": [
+                ]
+            }
+        ]
+    },
+    "drinks": {
+        "description": "",
+        "subclasses": [
+            {
+                "className": "Frisdranken",
+                "victuals": [
+                    {
+                        "victualName": "Ritchie Orange",
+                        "id": 4684681115,
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    },
+                    {
+                        "victualName": "Ritchie Lemon",
+                        "id": 4684281115,
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    },
+                    {
+                        "victualName": "Ritchie Pompelmoes",
+                        "id": 4684611115,
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    }
+                ]
+            },
+            {
+                "className": "Wijnen",
+                "victuals": [
+                    {
+                        "victualName": "Witte wijn",
+                        "id": 4824681115,
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    },
+                    {
+                        "victualName": "Rosé wijn",
+                        "id": 4684281188,
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    }
+                ]
+            },
+            {
+                "className": "Cocktails",
+                "victuals": [
+                    {
+                        "victualName": "Gin tonic Butcher",
+                        "id": 4999681115,
+                        "extraInfoProvided": true,
+                        "description": "Uitleg",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    }
+                ]
+            }
+        ]
+    }
+}

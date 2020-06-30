@@ -1,28 +1,65 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" ref="app">
+    <TopBar ref="topBar" :foldIn="foldInTopBar" v-on:foodVsDrinksSubMenuClicked="foodVsDrinksSubMenuClicked"/>
+    <VictualsSwipeBox ref="victualsSwipeBox" v-on:swipedFoodVsDrinks="swipedFoodVsDrinks"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TopBar from './components/TopBar.vue'
+import VictualsSwipeBox from './components/VictualsSwipeBox.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    TopBar,
+    VictualsSwipeBox
+  },
+  created () {
+    this.$win.addEventListener('scroll', this.handleScroll);
+    this.$win.addEventListener('touchmove', this.handleScroll);
+  },
+  destroyed () {
+    this.$win.removeEventListener('scroll', this.handleScroll);
+    this.$win.removeEventListener('touchmove', this.handleScroll);
+  },
+  methods: {
+    handleScroll () {
+      this.foldInTopBar = !!(Math.max(0,window.scrollY))
+    },
+    foodVsDrinksSubMenuClicked (_drinksVsFoodBool) { //_drinksVsFoodBool = true --> drinks; _drinksVsFoodBool = false --> food
+      if (_drinksVsFoodBool) { //Drinks
+        this.$refs.victualsSwipeBox.switchToDrinks();
+      }
+      else { //food
+        this.$refs.victualsSwipeBox.switchToFood();
+      }
+    },
+    swipedFoodVsDrinks (_foodVsDrinksBool) {
+      this.$refs.topBar.foodDrinksMenutToogleExternally(_foodVsDrinksBool)
+  }
+  },
+  data: () => {
+    return {
+      foldInTopBar: false
+    }
   }
 }
 </script>
 
-<style>
+<style lang="scss">
+* { box-sizing: border-box; user-select: none; }
+
+body {
+  margin: 0 !important
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: #F0F0F8;
+  height: 100%;
 }
 </style>
