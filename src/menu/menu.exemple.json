@@ -10,7 +10,7 @@
                         "victualName": "Clément (De Ryck)",
                         "id": "6cdd69dd0f142510fd079941feea201840162195b37cfe502288fa0820d4b99e",
                         "extraInfoProvided": true,
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet volutpat consequat mauris nunc congue nisi. Eu mi bibendum neque egestas congue quisque egestas. Commodo quis imperdiet massa tincidunt. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Nibh venenatis cras sed felis eget velit. Ultricies integer quis auctor elit sed vulputate mi sit amet. Quis vel eros donec ac odio. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Leo integer malesuada nunc vel risus. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Lacus sed viverra tellus in hac habitasse platea dictumst. Neque aliquam vestibulum morbi blandit cursus risus at ultrices mi. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Duis at tellus at urna condimentum. Orci phasellus egestas tellus rutrum tellus. Ipsum consequat nisl vel pretium lectus.",
+                        "description": "Clément is een heerlijk, pittig, lichtblonde doordrinker met 5% alcohol. Clément is een blond bier van Brouwerij de Ryck uit Herzele. Het bier werd in 2019 gelanceerd als ode aan Clément de Ryck en om de realisatie van de nieuwe productiesite van de brouwerij te vieren.",
                         "price": 0,
                         "pics": [],
                         "allergens": {
@@ -29,7 +29,7 @@
                         "victualName": "Steenuilke (De Ryck)",
                         "id": "1fe3ccc90319ddfde8a726ed95760139dd4822d25750ba9cc5ed2d23f3f36acc",
                         "extraInfoProvided": true,
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam aliquam sem et tortor consequat id porta. Risus in hendrerit gravida rutrum. Odio aenean sed adipiscing diam donec adipiscing tristique risus.",
+                        "description": "Steenuilke is een uniek en pittig blond bier met een lichte moutsmaak, een subtiele fruitigheid en een fijne kruidige, licht grassige smaak. Het heeft een volmondige hoppige en droge afdronk. Het bier heeft een alcoholgehalte van 6%. Dit blond degustatiebier werd in samenwerking met het Regionaal Landschap Vlaamse Ardennen gecreëerd ter ondersteuning van het steenuilproject in de regio. Om de specificiteit van onze streek en dit kleine diertje te onderstrepen werden zorgvuldig 3 kruiden uitgezocht die in de streek groeien. Deze geven het bier een heel eigen volmondig aroma en smaak, zodat eentje al snel smaakt naar meer.",
                         "price": 0,
                         "pics": [],
                         "allergens": {
@@ -48,7 +48,7 @@
                         "victualName": "Lamoral (Van den Bossche)",
                         "id": "7e9e1947ba6026d4a072b9b914a477c803a75ccb14df40459d42c0f3cf1cad5a",
                         "extraInfoProvided": true,
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "description": "Lamoral is een licht goudblond bier met een lichte pareling. De geur wordt overheerst door mout en alcohol, maar ook door gember en mandarijntjes; complex dus. De smaak is een geheel van pompelmoesbitter, peperachtige kruidigheid en licht zoetig, dat alles in een goede balans. Lamoral heeft een alcoholgehalte van 8%. Een volmondig en karaktervol bier.",
                         "price": 0,
                         "pics": [],
                         "allergens": {
@@ -66,7 +66,7 @@
                     {
                         "victualName": "Buffalo (Van den Bossche)",
                         "id": "418e82f49ef732c6b9d0e64ee923279d29210eb616299a9bc958a8755ae76ed4",
-                        "extraInfoProvided": true,
+                        "extraInfoProvided": false,
                         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
                         "price": 0,
                         "pics": [],
@@ -86,7 +86,7 @@
                         "victualName": "Saison d’Erpe Mere (De Glazen Toren)",
                         "id": "b54bb8ecb27dfe7a7838c010fea6ee4c3f4bd007ebb80aa994f275b46d920b38",
                         "extraInfoProvided": true,
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "description": "Saison d'Erpe-Mere is het paradepaardje van Brouwerij de Glazen Toren in Erpe Mere. De saison bierstijl is afkomstig uit de provincie Henegouwen. Saison werd door boeren in de winter gebrouwen. De seizoensarbeiders konden het bier dan drinken in de zomer tijdens de werkzaamheden op het land. Saison d’Erpe-Mere heeft een hoppig (citrus) aroma en een fijne bitterheid. In het glas is het bier licht gesluierd, strogeel en met witte stabiele schuimkraag. Het bier heeft een alcoholgehalte van 6%.",
                         "price": 0,
                         "pics": [],
                         "allergens": {
@@ -104,7 +104,7 @@
                     {
                         "victualName": "Ondineke (De Glazen Toren)",
                         "id": "3a06746a242b3647672c81b6d58e949731f2d76aa9b0e984be74c1aaf1a6a03e",
-                        "extraInfoProvided": true,
+                        "extraInfoProvided": false,
                         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
                         "price": 0,
                         "pics": [],
@@ -124,7 +124,7 @@
                         "victualName": "Desperados Original",
                         "id": "9e9907ad98373bb2e48f4bc210fdbce6c6bb6c5d76939ea30d57076604a17b08",
                         "extraInfoProvided": true,
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "description": "Desperados Original is een iconische combinatie van bier gearomatiseerd met tequila, beroemd om zijn intense, verfrissende smaak met subtiele toetsen van citroen en een licht kruidige afdronk. Dit bier heeft een alcoholgehalte van 6%",
                         "price": 0,
                         "pics": [],
                         "allergens": {
