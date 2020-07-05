@@ -24,7 +24,7 @@
                     <div class="content">
                         {{ victual.description }}
                         <div class="pictures" v-if="victual.pics.length !== 0">
-                            <img :src="picUrl" v-bind:key="picUrl" v-for="picUrl in victual.pics">
+                            <img :src="getImgUrlVue(picUrl, victual.id)" v-bind:key="picUrl" v-for="picUrl in victual.pics">
                         </div>
                         <div class="restrictionDaysInfo" v-if="victual.availabilityRestrictionsByDay">
                         Opgelet!<b> {{ victual.victualName }} </b>is enkel beschikbaar op volgende dagen:
@@ -62,6 +62,9 @@ export default {
             if (_victual.extraInfoProvided) {
                 this.$refs[_victual.id][0].classList.toggle('infoShown')
             }
+        },
+        getImgUrlVue(picUrl, victualId) {
+            return require('@/assets/victualsPics/' + victualId + '/' + picUrl)
         }
     }
 }

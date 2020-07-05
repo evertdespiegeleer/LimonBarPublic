@@ -1,17 +1,18 @@
 {
     "food": {
+        "menuName": "Alcoholisch 🍻",
         "description": "BETA",
         "subclasses": [
             {
-                "className": "Lunches",
+                "className": "Bier",
                 "victuals": [
                     {
-                        "victualName": "Toast sunny side up",
-                        "id": 4684685445,
+                        "victualName": "Clément (De Ryck)",
+                        "id": "6cdd69dd0f142510fd079941feea201840162195b37cfe502288fa0820d4b99e",
                         "extraInfoProvided": true,
                         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet volutpat consequat mauris nunc congue nisi. Eu mi bibendum neque egestas congue quisque egestas. Commodo quis imperdiet massa tincidunt. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Nibh venenatis cras sed felis eget velit. Ultricies integer quis auctor elit sed vulputate mi sit amet. Quis vel eros donec ac odio. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Leo integer malesuada nunc vel risus. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Lacus sed viverra tellus in hac habitasse platea dictumst. Neque aliquam vestibulum morbi blandit cursus risus at ultrices mi. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Duis at tellus at urna condimentum. Orci phasellus egestas tellus rutrum tellus. Ipsum consequat nisl vel pretium lectus.",
-                        "price": 6,
-                        "pics": ["https://picsum.photos/500/500", "https://picsum.photos/500/500", "https://picsum.photos/500/500"],
+                        "price": 0,
+                        "pics": [],
                         "allergens": {
                             "soy": false,
                             "egg": true,
@@ -21,15 +22,15 @@
                             "gluten": true
                         },
                         "available": true,
-                        "availabilityRestrictionsByDay": true,
+                        "availabilityRestrictionsByDay": false,
                         "daysAvailable": [false, false, true, false, false, false, false]
                     },
                     {
-                        "victualName": "Toast Jardin du poete",
-                        "id": 4685435445,
+                        "victualName": "Steenuilke (De Ryck)",
+                        "id": "1fe3ccc90319ddfde8a726ed95760139dd4822d25750ba9cc5ed2d23f3f36acc",
                         "extraInfoProvided": true,
                         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam aliquam sem et tortor consequat id porta. Risus in hendrerit gravida rutrum. Odio aenean sed adipiscing diam donec adipiscing tristique risus.",
-                        "price": 5,
+                        "price": 0,
                         "pics": [],
                         "allergens": {
                             "soy": true,
@@ -40,16 +41,16 @@
                             "gluten": true
                         },
                         "available": true,
-                        "availabilityRestrictionsByDay": true,
+                        "availabilityRestrictionsByDay": false,
                         "daysAvailable": [false, false, true, false, false, false, false]
                     },
                     {
-                        "victualName": "Taco spice must flow",
-                        "id": 813545343,
+                        "victualName": "Lamoral (Van den Bossche)",
+                        "id": "7e9e1947ba6026d4a072b9b914a477c803a75ccb14df40459d42c0f3cf1cad5a",
                         "extraInfoProvided": true,
                         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
-                        "price": 5,
-                        "pics": ["https://picsum.photos/500/500", "https://picsum.photos/500/500", "https://picsum.photos/500/500"],
+                        "price": 0,
+                        "pics": [],
                         "allergens": {
                             "soy": true,
                             "egg": false,
@@ -59,19 +60,334 @@
                             "gluten": true
                         },
                         "available": true,
-                        "availabilityRestrictionsByDay": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Buffalo (Van den Bossche)",
+                        "id": "418e82f49ef732c6b9d0e64ee923279d29210eb616299a9bc958a8755ae76ed4",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Saison d’Erpe Mere (De Glazen Toren)",
+                        "id": "b54bb8ecb27dfe7a7838c010fea6ee4c3f4bd007ebb80aa994f275b46d920b38",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Ondineke (De Glazen Toren)",
+                        "id": "3a06746a242b3647672c81b6d58e949731f2d76aa9b0e984be74c1aaf1a6a03e",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Desperados Original",
+                        "id": "9e9907ad98373bb2e48f4bc210fdbce6c6bb6c5d76939ea30d57076604a17b08",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
                         "daysAvailable": [false, false, true, false, false, false, false]
                     }
                 ]
             },
             {
-                "className": "Desserts",
+                "className": "Wijn",
                 "victuals": [
+                    {
+                        "victualName": "Glas rosé",
+                        "id": "345de2bb8727056c09756c9b9a164392735df41345d24359b013d9b603fae966",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Fles rosé",
+                        "id": "b40af3226bbe65982ab182c88576e18bdd84fa23408fb908245201e85e157da8",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Glas witte wijn",
+                        "id": "ca7c29f75aaabe65f4a1d62fe463a2f4699c3fe2eb51cd8360420294fe10822d",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Fles witte wijn",
+                        "id": "7e8d051afe50f6f2d57ffa1d917ff58e5aa1e901c9a64902f2ed08119933fbd9",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    }
+                ]
+            },
+            {
+                "className": "Cocktails",
+                "victuals": [
+                    {
+                        "victualName": "Jungle Bird",
+                        "id": "4a42fb53b898f15876f1d064e6e6e1a1be3590a36e6137f6b0837573affa8c5b",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": ["1.jpg", "2.jpg"],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Bee's Knees",
+                        "id": "873a86d83e18b21cadc7fc16995f9c47ec0f4a56060416498146197e3ec63a77",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": ["1.jpg", "2.jpg"],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Negroni",
+                        "id": "47c472a7d7f48e5defa15d0130e5ac6cf985ceeac3e7f9e01241e73ff4d17c8b",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": ["1.jpg", "2.jpg"],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Lemon Drop",
+                        "id": "f0b2ef420a150836860401267b736ee494b10d3e5255667351cd6a705e31e6d3",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": ["1.jpg", "2.jpg"],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "NAAM KIEZEN pink...",
+                        "id": "a81d7efe95d2ee0e3c6ad01615d8632f2e3fe757270213e0962a6ecaa687e7e2",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": ["1.jpg", "2.jpg"],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Gin Tonic Butcher",
+                        "id": "c568e1356ba2d2195d7c7ebe0129a9c37babc823752d90238ad0dc7e4bb468b2",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    },
+                    {
+                        "victualName": "Sangria",
+                        "id": "25858f087d50004dbb294e89ccd0878b550b4bd4c85472f219bbfe4cfff04f74",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    }
+                ]
+            },
+            {
+                "className": "Digestieven",
+                "victuals": [
+                    {
+                        "victualName": "Limoncello",
+                        "id": "6dc896cae279fea01f2cd21de4892f2b556ae6c3d0e6f0a32fdb70ce775da3e7",
+                        "extraInfoProvided": true,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": true,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": true
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [false, false, true, false, false, false, false]
+                    }
                 ]
             }
         ]
     },
     "drinks": {
+        "menuName": "Non-alcoholisch ☕️",
         "description": "",
         "subclasses": [
             {
@@ -79,7 +395,7 @@
                 "victuals": [
                     {
                         "victualName": "Ritchie Orange",
-                        "id": 4684681115,
+                        "id": "b90fc2b6a423f4dfa7f3f00ff66959754543d396c06d295e5efe554a48ed4910",
                         "extraInfoProvided": false,
                         "description": "",
                         "price": 0,
@@ -98,7 +414,7 @@
                     },
                     {
                         "victualName": "Ritchie Lemon",
-                        "id": 4684281115,
+                        "id": "e551975afa44aa3dbcad205b55a6f9f0cd83250e01775ab93ba8d9816ced205a",
                         "extraInfoProvided": false,
                         "description": "",
                         "price": 0,
@@ -117,31 +433,7 @@
                     },
                     {
                         "victualName": "Ritchie Pompelmoes",
-                        "id": 4684611115,
-                        "extraInfoProvided": false,
-                        "description": "",
-                        "price": 0,
-                        "pics": [],
-                        "allergens": {
-                            "soy": false,
-                            "egg": false,
-                            "milk": false,
-                            "sesame": false,
-                            "nuts": false,
-                            "gluten": false
-                        },
-                        "available": true,
-                        "availabilityRestrictionsByDay": false,
-                        "daysAvailable": [true, true, true, true, true, true, true]
-                    }
-                ]
-            },
-            {
-                "className": "Wijnen",
-                "victuals": [
-                    {
-                        "victualName": "Witte wijn",
-                        "id": 4824681115,
+                        "id": "1a887513e033c701c8fba96fad14c1146fed43515c938e39262610f449c3dfa9",
                         "extraInfoProvided": false,
                         "description": "",
                         "price": 0,
@@ -159,8 +451,84 @@
                         "daysAvailable": [true, true, true, true, true, true, true]
                     },
                     {
-                        "victualName": "Rosé wijn",
-                        "id": 4684281188,
+                        "victualName": "Coca Cola",
+                        "id": "85761d5136413d7df4e43fc073cad4e04d90437bc5e9c5827dc08c89765e8c8a",
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    },
+                    {
+                        "victualName": "Coca Cola Zero",
+                        "id": "88e32e0cd678f738e6ddb763f1bf84b58acdffc8bb71dc17051d0ab100172e8d",
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    },
+                    {
+                        "victualName": "Lipton Ice Tea",
+                        "id": "14bbe64387aa8ec2d095651ac76fffc32dbf9df823e74db63162c6f66943d7ae",
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    },
+                    {
+                        "victualName": "Water",
+                        "id": "7ca7dea906800f87091b819132ecf2aa2b7ea14c9841fa18b9db121d3bbe82dc",
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    },
+                    {
+                        "victualName": "Spuitwater",
+                        "id": "ec083457d5f1344c89969c9caa6706eb54a9715018e4e72512bf69e4f2d18845",
                         "extraInfoProvided": false,
                         "description": "",
                         "price": 0,
@@ -180,13 +548,94 @@
                 ]
             },
             {
-                "className": "Cocktails",
+                "className": "Koffies",
                 "victuals": [
                     {
-                        "victualName": "Gin tonic Butcher",
-                        "id": 4999681115,
-                        "extraInfoProvided": true,
-                        "description": "Uitleg",
+                        "victualName": "Kleine koffie",
+                        "id": "61c9b8a2cdefbbf151f019bca2584cd0fe5406b423758c6dd59036355e4f5cce",
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    },
+                    {
+                        "victualName": "Grote koffie",
+                        "id": "22111d30c9859588b973ff0d8f7b569f56d4788853590799868a24aca4bf22c2",
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    },
+                    {
+                        "victualName": "Dalgona Iced Coffee",
+                        "id": "fbd8b20249f21aa8d15525235b2736d7db615f6e2ce8ef6a58f8423ad66394f3",
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    }
+                ]
+            },
+            {
+                "className": "Theeën",
+                "victuals": [
+                    {
+                        "victualName": "Iced Tea Amour Provence",
+                        "id": "90c821f899d7b4a64f2df6690898437017b8e4821a2d995d19bb56d697a97d17",
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 0,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    },
+                    {
+                        "victualName": "Iced Tea Fresh Peach",
+                        "id": "7e4db2c87b995c7de311612df11776099a0608711dd2725d7e4d554035332880",
+                        "extraInfoProvided": false,
+                        "description": "",
                         "price": 0,
                         "pics": [],
                         "allergens": {

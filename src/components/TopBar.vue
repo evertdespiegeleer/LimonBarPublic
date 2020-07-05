@@ -8,8 +8,8 @@
     <div class="foodDrinksMenu">
         <div class="selectorIndicator" :class="{ 'rightSelected' : subMenuRightSelected, 'leftSelected' : !subMenuRightSelected}"></div>
         <div class="menu">
-            <div class="food menuItem" v-on:click="foodDrinksMenuBtnClicked(false)">Eten 🌮</div>
-            <div class="drinks menuItem" v-on:click="foodDrinksMenuBtnClicked(true)">Drinken 🍸</div>
+            <div class="food menuItem" v-on:click="foodDrinksMenuBtnClicked(false)">{{ data.food.menuName }}</div>
+            <div class="drinks menuItem" v-on:click="foodDrinksMenuBtnClicked(true)">{{ data.drinks.menuName }}</div>
         </div>
     </div>
     </div>
@@ -17,13 +17,16 @@
 </template>
 
 <script>
+import victualsDataObject from './../menu/menu.exemple.json'
+
 export default {
     props: {
         foldIn: Boolean
     },
     data: () => {
         return {
-            subMenuRightSelected: false
+            subMenuRightSelected: false,
+            data: victualsDataObject
         }
     },
     methods: {
