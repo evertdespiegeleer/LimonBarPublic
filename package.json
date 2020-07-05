@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "publish": "npm run build && cd docs && echo 'limon.evertdespiegeleer.com' > CNAME && cd ../ && git commit && git push -f git@github.com:evertdespiegeleer/LimonBarPublic.git master"
+    "publish": "npm run build && cd docs && echo 'limon.evertdespiegeleer.com' > CNAME && cd ../ && git add -A && git commit -m \"publish\" && git push -f git@github.com:evertdespiegeleer/LimonBarPublic.git master"
   },
   "dependencies": {
     "core-js": "^2.6.5",
