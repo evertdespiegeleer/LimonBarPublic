@@ -113,6 +113,7 @@ export default {
             .name {
                 float: left;
                 transition: font-weight 100ms ease-in-out, font-size 100ms ease-in-out;
+                max-width: 75%;
             }
             .price {
                 float: right;
