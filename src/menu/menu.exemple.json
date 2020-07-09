@@ -1,7 +1,7 @@
 {
     "food": {
         "menuName": "Alcoholisch 🍻",
-        "description": "BETA",
+        "description": "",
         "subclasses": [
             {
                 "className": "Bier",
@@ -268,7 +268,7 @@
                         "victualName": "Negroni",
                         "id": "47c472a7d7f48e5defa15d0130e5ac6cf985ceeac3e7f9e01241e73ff4d17c8b",
                         "extraInfoProvided": true,
-                        "description": "",
+                        "description": "Negroni is een typische Italiaanse, robijnrode cocktail met een bitterzoete smaak. Negroni is afkomstig uit de stad Firenze.",
                         "price": 9.5,
                         "pics": ["1.jpg", "2.jpg"],
                         "allergens": {
@@ -287,7 +287,7 @@
                         "victualName": "Lemon Drop",
                         "id": "f0b2ef420a150836860401267b736ee494b10d3e5255667351cd6a705e31e6d3",
                         "extraInfoProvided": true,
-                        "description": " #Clarissesfavorite",
+                        "description": "Lemon Drop is een cocktail met een frisse citrussmaak. Deze eenvoudige maar heerlijke cocktail is verrijkt met vergeperst citroensap. #Clarissesfavorite",
                         "price": 8.5,
                         "pics": ["1.jpg", "2.jpg"],
                         "allergens": {
@@ -303,10 +303,11 @@
                         "daysAvailable": [false, false, true, false, false, false, false]
                     },
                     {
-                        "victualName": "NAAM KIEZEN pink...",
+                        "victualName": "Pink Pomelo",
+                        "originalName": "PRETTY PINK GIN AND CRANBERRY MARTINI",
                         "id": "a81d7efe95d2ee0e3c6ad01615d8632f2e3fe757270213e0962a6ecaa687e7e2",
                         "extraInfoProvided": true,
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "description": "Pink Pomelo is een zoete cocktail, met een lichte bittereheid, eigen aan de pompelmoes. De roze kleur wordt mede bepaalde door de likeur 'Oude Mandarin' van Stokerij Mertens uit Zottegem.",
                         "price": 8.5,
                         "pics": ["1.jpg", "2.jpg"],
                         "allergens": {
@@ -325,7 +326,7 @@
                         "victualName": "Gin Tonic Butcher",
                         "id": "c568e1356ba2d2195d7c7ebe0129a9c37babc823752d90238ad0dc7e4bb468b2",
                         "extraInfoProvided": true,
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas. Diam quis enim lobortis scelerisque fermentum dui. Vitae purus faucibus ornare suspendisse. Fringilla ut morbi tincidunt augue interdum velit euismod in. Ipsum consequat nisl vel pretium lectus quam id.",
+                        "description": "Gin Tonic Butcher bevat de premiun gin 'Butcher' uit Vlierzele. De gin werd samengesteld door de uitbaters van kwaliteitsslagerij Robby & Nathalie.",
                         "price": 9.5,
                         "pics": [],
                         "allergens": {
@@ -367,8 +368,8 @@
                     {
                         "victualName": "Limoncello",
                         "id": "6dc896cae279fea01f2cd21de4892f2b556ae6c3d0e6f0a32fdb70ce775da3e7",
-                        "extraInfoProvided": false,
-                        "description": "",
+                        "extraInfoProvided": true,
+                        "description": "Onze limoncello is afkomstig van een lokaal, gepassioneerd koppel uit Brakel: Yolanda & Tom. Hun zaak, Litomcello, waar alles is artisanaal gemaakt wordt, schenkt een deel van de opbrengst aan een weeshuis in Chili.",
                         "price": 2.5,
                         "pics": [],
                         "allergens": {
@@ -554,8 +555,8 @@
                     {
                         "victualName": "Kleine koffie",
                         "id": "61c9b8a2cdefbbf151f019bca2584cd0fe5406b423758c6dd59036355e4f5cce",
-                        "extraInfoProvided": false,
-                        "description": "",
+                        "extraInfoProvided": true,
+                        "description": "De koffie is afkomstig van koffiebranderij Hoorens uit Sint-Maria-Oudenhove. De koffie die wij gebruiken, Panamajumbo, is een eerbetoon aan kunstenaar Panamarenco.",
                         "price": 2.5,
                         "pics": [],
                         "allergens": {
@@ -573,8 +574,8 @@
                     {
                         "victualName": "Grote koffie",
                         "id": "22111d30c9859588b973ff0d8f7b569f56d4788853590799868a24aca4bf22c2",
-                        "extraInfoProvided": false,
-                        "description": "",
+                        "extraInfoProvided": true,
+                        "description": "De koffie is afkomstig van koffiebranderij Hoorens uit Sint-Maria-Oudenhove. De koffie die wij gebruiken, Panamajumbo, is een eerbetoon aan kunstenaar Panamarenco.",
                         "price": 3.5,
                         "pics": [],
                         "allergens": {
@@ -593,7 +594,7 @@
                         "victualName": "Dalgona Iced Coffee",
                         "id": "fbd8b20249f21aa8d15525235b2736d7db615f6e2ce8ef6a58f8423ad66394f3",
                         "extraInfoProvided": true,
-                        "description": "Dalgona  Iced Coffee is een romige ijskoffie, en bestaat voornamelijk uit koude melk, gemengd met een opgeklopte, luchtige koffieroom.",
+                        "description": "Dalgona Iced Coffee is een romige ijskoffie, en bestaat voornamelijk uit koude melk, gemengd met een opgeklopte, luchtige koffieroom. De koffie wordt afgewerkt met een heerlijke chocolade koffieboon van lokale koffiebranderij Hoorens.",
                         "price": 4,
                         "pics": [],
                         "allergens": {
@@ -616,8 +617,8 @@
                     {
                         "victualName": "Iced Tea Amour Provence",
                         "id": "90c821f899d7b4a64f2df6690898437017b8e4821a2d995d19bb56d697a97d17",
-                        "extraInfoProvided": false,
-                        "description": "",
+                        "extraInfoProvided": true,
+                        "description": "Deze thee is afkomstig uit de Herzeelse conceptstore Sōshun.",
                         "price": 2.5,
                         "pics": [],
                         "allergens": {
@@ -635,8 +636,8 @@
                     {
                         "victualName": "Iced Tea Fresh Peach",
                         "id": "7e4db2c87b995c7de311612df11776099a0608711dd2725d7e4d554035332880",
-                        "extraInfoProvided": false,
-                        "description": "",
+                        "extraInfoProvided": true,
+                        "description": "Deze thee is afkomstig uit de Herzeelse conceptstore Sōshun.",
                         "price": 2.5,
                         "pics": [],
                         "allergens": {
