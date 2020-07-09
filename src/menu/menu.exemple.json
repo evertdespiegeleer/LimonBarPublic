@@ -150,7 +150,7 @@
                         "extraInfoProvided": true,
                         "description": "Rocca Maura Effet Mer is een Franse wijn uit de regio Languedoc Roussillon. Het is een zeer bleke, intense en verfrissende Rosé. Waan je op een zonnig terras. Effet Mer is de wijn van de zomer bij uitstek.",
                         "price": 4,
-                        "pics": [],
+                        "pics": ["image00001.jpeg"],
                         "allergens": {
                             "soy": true,
                             "egg": false,
@@ -169,7 +169,7 @@
                         "extraInfoProvided": true,
                         "description": "Rocca Maura Effet Mer is een Franse wijn uit de regio Languedoc Roussillon. Het is een zeer bleke, intense en verfrissende Rosé. Waan je op een zonnig terras. Effet Mer is de wijn van de zomer bij uitstek.",
                         "price": 20,
-                        "pics": [],
+                        "pics": ["image00001.jpeg"],
                         "allergens": {
                             "soy": true,
                             "egg": false,
@@ -188,7 +188,7 @@
                         "extraInfoProvided": true,
                         "description": "Rocca Maura Rhone Blanc Tradition is een intense witte wijn met wit- en steenfuit. Het is een arromatische witte wijn met een lange afdronk, en wordt gemaakt met 3 verschillende druivenrassen. Het is een witte wijn uit de zuidelijke Rhone, een valei op slechts 15km ten noorden van Avignon",
                         "price": 4,
-                        "pics": [],
+                        "pics": ["image00002.jpeg"],
                         "allergens": {
                             "soy": true,
                             "egg": false,
@@ -207,7 +207,7 @@
                         "extraInfoProvided": true,
                         "description": "Rocca Maura Rhone Blanc Tradition is een intense witte wijn met wit- en steenfuit. Het is een arromatische witte wijn met een lange afdronk, en wordt gemaakt met 3 verschillende druivenrassen. Het is een witte wijn uit de zuidelijke Rhone, een valei op slechts 15km ten noorden van Avignon",
                         "price": 20,
-                        "pics": [],
+                        "pics": ["image00002.jpeg"],
                         "allergens": {
                             "soy": true,
                             "egg": false,
@@ -371,7 +371,7 @@
                         "extraInfoProvided": true,
                         "description": "Onze limoncello is afkomstig van een lokaal, gepassioneerd koppel uit Brakel: Yolanda & Tom. Hun zaak, Litomcello, waar alles is artisanaal gemaakt wordt, schenkt een deel van de opbrengst aan een weeshuis in Chili.",
                         "price": 2.5,
-                        "pics": [],
+                        "pics": ["image00003.jpeg"],
                         "allergens": {
                             "soy": true,
                             "egg": false,
@@ -596,7 +596,7 @@
                         "extraInfoProvided": true,
                         "description": "Dalgona Iced Coffee is een romige ijskoffie, en bestaat voornamelijk uit koude melk, gemengd met een opgeklopte, luchtige koffieroom. De koffie wordt afgewerkt met een heerlijke chocolade koffieboon van lokale koffiebranderij Hoorens.",
                         "price": 4,
-                        "pics": [],
+                        "pics": ["image00004.jpeg"],
                         "allergens": {
                             "soy": false,
                             "egg": false,
