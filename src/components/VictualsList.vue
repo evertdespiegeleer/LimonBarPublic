@@ -14,13 +14,16 @@
             </div>
             <div class="victual" v-bind:key="victual.id" :ref="victual.id" :class="{ 'extraInfoProvided': victual.extraInfoProvided || victual.availabilityRestrictionsByDay }" v-for="victual in subclass.victuals" >
                 <div class="defaultLine" @click="toggleAdditionalInfo(victual)">
-                    <p class="name">{{ victual.victualName }}</p>
+                    <p class="name" :class="{ 'unavailable': !victual.available }">{{ victual.victualName }}</p>
                     <p class="price">&euro; {{ addZeroes(victual.price) }}</p>
                 </div>
                 <div class="additionalInfoProvidedIcon">
                     ...
                 </div>
                 <div class="additionalInfo">
+                    <div class="unavailability" v-if="!victual.available">
+                        {{ victual.victualName }} is momenteel niet beschikbaar.
+                    </div>
                     <div class="content">
                         {{ victual.description }}
                         <div class="pictures" v-if="victual.pics.length !== 0">
@@ -114,6 +117,9 @@ export default {
                 float: left;
                 transition: font-weight 100ms ease-in-out, font-size 100ms ease-in-out;
                 max-width: 75%;
+                &.unavailable {
+                    opacity: 0.4;
+                }
             }
             .price {
                 float: right;
@@ -139,6 +145,10 @@ export default {
             transform: scaleY(0);
             height: 0;
             transition: height 100ms ease-in-out;
+            .unavailability {
+                color: rgb(255, 0, 0);
+                padding-bottom: 20px;
+            }
             .content {
                 user-select: text;
                 opacity: 0;

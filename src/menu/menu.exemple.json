@@ -97,7 +97,7 @@
                             "nuts": false,
                             "gluten": true
                         },
-                        "available": true,
+                        "available": false,
                         "availabilityRestrictionsByDay": false,
                         "daysAvailable": [false, false, true, false, false, false, false]
                     },
@@ -186,7 +186,7 @@
                         "victualName": "Glas witte wijn (Rocca Maura Blanc)",
                         "id": "ca7c29f75aaabe65f4a1d62fe463a2f4699c3fe2eb51cd8360420294fe10822d",
                         "extraInfoProvided": true,
-                        "description": "Rocca Maura Rhone Blanc Tradition is een intense witte wijn met wit- en steenfuit. Het is een arromatische witte wijn met een lange afdronk, en wordt gemaakt met 3 verschillende druivenrassen. Het is een witte wijn uit de zuidelijke Rhone, een valei op slechts 15km ten noorden van Avignon",
+                        "description": "Met zijn bleke kleur tovert deze wijn wat pareltjes op je tong. Je ruikt de aroma's van o.a. pompelmoes en citroen. In de mond verkrijg je een mooie parelende frisheid.",
                         "price": 4,
                         "pics": ["image00002.jpeg"],
                         "allergens": {
@@ -205,7 +205,7 @@
                         "victualName": "Fles witte wijn (Rocca Maura Blanc)",
                         "id": "7e8d051afe50f6f2d57ffa1d917ff58e5aa1e901c9a64902f2ed08119933fbd9",
                         "extraInfoProvided": true,
-                        "description": "Rocca Maura Rhone Blanc Tradition is een intense witte wijn met wit- en steenfuit. Het is een arromatische witte wijn met een lange afdronk, en wordt gemaakt met 3 verschillende druivenrassen. Het is een witte wijn uit de zuidelijke Rhone, een valei op slechts 15km ten noorden van Avignon",
+                        "description": "Met zijn bleke kleur tovert deze wijn wat pareltjes op je tong. Je ruikt de aroma's van o.a. pompelmoes en citroen. In de mond verkrijg je een mooie parelende frisheid.",
                         "price": 20,
                         "pics": ["image00002.jpeg"],
                         "allergens": {
