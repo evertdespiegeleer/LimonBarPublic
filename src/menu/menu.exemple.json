@@ -87,7 +87,7 @@
                         "id": "b54bb8ecb27dfe7a7838c010fea6ee4c3f4bd007ebb80aa994f275b46d920b38",
                         "extraInfoProvided": true,
                         "description": "Saison d'Erpe-Mere is het paradepaardje van Brouwerij de Glazen Toren in Erpe Mere. De saison bierstijl is afkomstig uit de provincie Henegouwen. Saison werd door boeren in de winter gebrouwen, en in de zomer gedronken tijdens de werkzaamheden op het land. Saison d’Erpe-Mere heeft een hoppig (citrus) aroma en een fijne bitterheid. Het is strogeel, en heeft een witte stabiele schuimkraag. Het bier heeft een alcoholgehalte van 6%.",
-                        "price": 0,
+                        "price": 3.5,
                         "pics": [],
                         "allergens": {
                             "soy": true,
@@ -106,7 +106,7 @@
                         "id": "3a06746a242b3647672c81b6d58e949731f2d76aa9b0e984be74c1aaf1a6a03e",
                         "extraInfoProvided": true,
                         "description": "Ondineke is een ongefilterd goudblond bier, met een alcoholpercentage van 8.5%, zonder toevoeging van kruiden. Brouwerij De Glazen Toren maakt gebruik van de enige hopvarëiteit die nu nog in Aalst verbouwd wordt. Het bier is genoemd naar Ondine, het hoofdpersonage van De Kapellekensbaan, een boek van Louis Paul Boon. Het is het officiële stadsbier van Aalst.",
-                        "price": 0,
+                        "price": 3.5,
                         "pics": [],
                         "allergens": {
                             "soy": true,
@@ -124,7 +124,7 @@
                         "victualName": "Desperados Original",
                         "id": "9e9907ad98373bb2e48f4bc210fdbce6c6bb6c5d76939ea30d57076604a17b08",
                         "extraInfoProvided": true,
-                        "description": "Desperados Original is een iconische combinatie van bier gearomatiseerd met tequila, beroemd om zijn intense, verfrissende smaak met subtiele toetsen van citroen en een licht kruidige afdronk. Dit bier heeft een alcoholgehalte van 6%",
+                        "description": "Desperados Original is een iconische combinatie van bier gearomatiseerd met tequila, beroemd om zijn intense, verfrissende smaak met subtiele toetsen van citroen en een licht kruidige afdronk. Dit bier heeft een alcoholgehalte van 6%.",
                         "price": 4,
                         "pics": [],
                         "allergens": {
@@ -307,7 +307,7 @@
                         "originalName": "PRETTY PINK GIN AND CRANBERRY MARTINI",
                         "id": "a81d7efe95d2ee0e3c6ad01615d8632f2e3fe757270213e0962a6ecaa687e7e2",
                         "extraInfoProvided": true,
-                        "description": "Pink Pomelo is een zoete cocktail, met een lichte bittereheid, eigen aan de pompelmoes. De roze kleur wordt mede bepaalde door de likeur 'Oude Mandarin' van Stokerij Mertens uit Zottegem.",
+                        "description": "Pink Pomelo is een zoete cocktail, met een lichte bitterheid, eigen aan de pompelmoes. De roze kleur wordt mede bepaalde door de likeur 'Oude Mandarin' van Stokerij Mertens uit Zottegem.",
                         "price": 8.5,
                         "pics": ["1.jpg", "2.jpg"],
                         "allergens": {
@@ -369,7 +369,7 @@
                         "victualName": "Limoncello",
                         "id": "6dc896cae279fea01f2cd21de4892f2b556ae6c3d0e6f0a32fdb70ce775da3e7",
                         "extraInfoProvided": true,
-                        "description": "Onze limoncello is afkomstig van een lokaal, gepassioneerd koppel uit Brakel: Yolanda & Tom. Hun zaak, Litomcello, waar alles is artisanaal gemaakt wordt, schenkt een deel van de opbrengst aan een weeshuis in Chili.",
+                        "description": "Onze limoncello is afkomstig van een lokaal, gepassioneerd koppel uit Brakel: Yolanda & Tom. Hun zaak, Litomcello, waar alles artisanaal gemaakt wordt, schenkt een deel van de opbrengst aan een weeshuis in Chili.",
                         "price": 2.5,
                         "pics": ["image00003.jpeg"],
                         "allergens": {
