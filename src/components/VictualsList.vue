@@ -27,7 +27,7 @@
                     <div class="content">
                         {{ victual.description }}
                         <div class="pictures" v-if="victual.pics.length !== 0">
-                            <img :src="getImgUrlVue(picUrl, victual.id)" v-bind:key="picUrl" v-for="picUrl in victual.pics">
+                            <img :src="getImgUrlVue(picUrl, victual.id)" loading="lazy" v-bind:key="picUrl" v-for="picUrl in victual.pics">
                         </div>
                         <div class="restrictionDaysInfo" v-if="victual.availabilityRestrictionsByDay">
                         Opgelet!<b> {{ victual.victualName }} </b>is enkel beschikbaar op volgende dagen:
