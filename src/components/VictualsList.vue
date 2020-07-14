@@ -112,7 +112,7 @@ export default {
         .defaultLine {
             padding: 20px 0 20px 0;
             width: 100%;
-            display: flow-root;
+            display: inline-block;
             .name {
                 float: left;
                 transition: font-weight 100ms ease-in-out, font-size 100ms ease-in-out;
