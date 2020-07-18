@@ -588,6 +588,30 @@
                 ]
             },
             {
+                "className": "Mocktails",
+                "victuals": [
+                    {
+                        "victualName": "Virgin Mojito",
+                        "id": "fcf9ffecb80ef80aa63dbadbf9fb3274dac5c46787f07213bad1f92b17b074e6",
+                        "extraInfoProvided": false,
+                        "description": "",
+                        "price": 6,
+                        "pics": [],
+                        "allergens": {
+                            "soy": false,
+                            "egg": false,
+                            "milk": false,
+                            "sesame": false,
+                            "nuts": false,
+                            "gluten": false
+                        },
+                        "available": true,
+                        "availabilityRestrictionsByDay": false,
+                        "daysAvailable": [true, true, true, true, true, true, true]
+                    }
+                ]
+            },
+            {
                 "className": "Koffie",
                 "victuals": [
                     {
