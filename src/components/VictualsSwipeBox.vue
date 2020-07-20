@@ -20,9 +20,11 @@ export default {
     methods: {
         switchToFood () {
             this.$refs["mainContainerRef"].scrollLeft = 0
+            window.scrollTo(0,1)
         },
         switchToDrinks () {
             this.$refs["mainContainerRef"].scrollLeft = this.$refs["mainContainerRef"].scrollWidth
+            window.scrollTo(0,1)
         },
         handleScrollToggle () {
             if (this.$refs["mainContainerRef"].scrollLeft >= this.$refs["rightPane"].getBoundingClientRect().left - 10) { //Drinks
