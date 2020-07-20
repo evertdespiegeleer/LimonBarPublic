@@ -593,10 +593,10 @@
                     {
                         "victualName": "Virgin Mojito",
                         "id": "fcf9ffecb80ef80aa63dbadbf9fb3274dac5c46787f07213bad1f92b17b074e6",
-                        "extraInfoProvided": false,
-                        "description": "",
+                        "extraInfoProvided": true,
+                        "description": "Een heerlijke, alcoholvrije variant van de klassieke Cubaanse mojito.",
                         "price": 6,
-                        "pics": [],
+                        "pics": ["1.jpg"],
                         "allergens": {
                             "soy": false,
                             "egg": false,
@@ -613,7 +613,7 @@
                         "victualName": "Rose Addiction",
                         "id": "ff193ef4e3d5ed4d40dba44ad28881256a804f567526d87dcdaaba77b6082a42",
                         "extraInfoProvided": true,
-                        "description": "Een zoete mocktail met een de smaak van roosjes.",
+                        "description": "Een zoete mocktail met een de smaak van roosjes.`",
                         "price": 6,
                         "pics": [],
                         "allergens": {
@@ -699,9 +699,9 @@
                         "victualName": "Iced Tea Amour Provence",
                         "id": "90c821f899d7b4a64f2df6690898437017b8e4821a2d995d19bb56d697a97d17",
                         "extraInfoProvided": true,
-                        "description": "Deze thee is afkomstig uit de Herzeelse conceptstore Sōshun.",
+                        "description": "Deze thee is afkomstig uit de Herzeelse conceptstore Sōshun. Amour Provence is de rechtse iced tea op de foto.",
                         "price": 2.5,
-                        "pics": [],
+                        "pics": ["1.jpg"],
                         "allergens": {
                             "soy": false,
                             "egg": false,
@@ -718,9 +718,9 @@
                         "victualName": "Iced Tea Fresh Peach",
                         "id": "7e4db2c87b995c7de311612df11776099a0608711dd2725d7e4d554035332880",
                         "extraInfoProvided": true,
-                        "description": "Deze thee is afkomstig uit de Herzeelse conceptstore Sōshun.",
+                        "description": "Deze thee is afkomstig uit de Herzeelse conceptstore Sōshun. Fresh Peach is de linkse iced tea op de foto.",
                         "price": 2.5,
-                        "pics": [],
+                        "pics": ["1.jpg"],
                         "allergens": {
                             "soy": false,
                             "egg": false,
