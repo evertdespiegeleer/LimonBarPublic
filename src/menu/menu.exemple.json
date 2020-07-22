@@ -40,7 +40,7 @@
                             "nuts": false,
                             "gluten": true
                         },
-                        "available": true,
+                        "available": false,
                         "availabilityRestrictionsByDay": false,
                         "daysAvailable": [false, false, true, false, false, false, false]
                     },
