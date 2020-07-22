@@ -439,7 +439,7 @@
                         "extraInfoProvided": false,
                         "description": "",
                         "price": 2.5,
-                        "pics": [],
+                        "pics": ["1.jpeg"],
                         "allergens": {
                             "soy": false,
                             "egg": false,
@@ -458,7 +458,7 @@
                         "extraInfoProvided": false,
                         "description": "",
                         "price": 2.5,
-                        "pics": [],
+                        "pics": ["1.jpeg"],
                         "allergens": {
                             "soy": false,
                             "egg": false,
@@ -477,7 +477,7 @@
                         "extraInfoProvided": false,
                         "description": "",
                         "price": 2.5,
-                        "pics": [],
+                        "pics": ["1.jpeg"],
                         "allergens": {
                             "soy": false,
                             "egg": false,
