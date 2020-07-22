@@ -436,8 +436,8 @@
                     {
                         "victualName": "Ritchie Orange",
                         "id": "b90fc2b6a423f4dfa7f3f00ff66959754543d396c06d295e5efe554a48ed4910",
-                        "extraInfoProvided": false,
-                        "description": "",
+                        "extraInfoProvided": true,
+                        "description": "Een heerlijke, Belgische limonade met sinaasappel.",
                         "price": 2.5,
                         "pics": ["1.jpeg"],
                         "allergens": {
@@ -455,8 +455,8 @@
                     {
                         "victualName": "Ritchie Lemon",
                         "id": "e551975afa44aa3dbcad205b55a6f9f0cd83250e01775ab93ba8d9816ced205a",
-                        "extraInfoProvided": false,
-                        "description": "",
+                        "extraInfoProvided": true,
+                        "description": "Een heerlijke, Belgische limonade met citroen.",
                         "price": 2.5,
                         "pics": ["1.jpeg"],
                         "allergens": {
@@ -474,8 +474,8 @@
                     {
                         "victualName": "Ritchie Pompelmoes",
                         "id": "1a887513e033c701c8fba96fad14c1146fed43515c938e39262610f449c3dfa9",
-                        "extraInfoProvided": false,
-                        "description": "",
+                        "extraInfoProvided": true,
+                        "description": "Een heerlijke, Belgische limonade met pompelmoes.",
                         "price": 2.5,
                         "pics": ["1.jpeg"],
                         "allergens": {
