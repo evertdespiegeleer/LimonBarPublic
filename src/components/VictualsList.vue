@@ -14,7 +14,7 @@
             </div>
             <div class="victual" v-bind:key="victual.id" :ref="victual.id" :class="{ 'extraInfoProvided': victual.extraInfoProvided || victual.availabilityRestrictionsByDay }" v-for="victual in subclass.victuals" >
                 <div class="defaultLine" @click="toggleAdditionalInfo(victual)">
-                    <p class="name" :class="{ 'unavailable': !victual.available }">{{ victual.victualName }}</p>
+                    <p class="name" :class="{ 'unavailable': !victual.available }">{{ victual.victualName }}<img v-if="victual.happyHour && victual.available" class="happyHourNameIcon" src="./../assets/happyhour-01.svg"/></p>
                     <p class="price">&euro; {{ addZeroes(victual.price) }}</p>
                 </div>
                 <div class="additionalInfoProvidedIcon">
@@ -23,6 +23,9 @@
                 <div class="additionalInfo">
                     <div class="unavailability" v-if="!victual.available">
                         {{ victual.victualName }} is momenteel niet beschikbaar.
+                    </div>
+                    <div v-if="victual.happyHour && victual.available" class="happyHourDescription">
+                        🎉 {{ victual.victualName }} is onderdeel van ons huidige happy hour! 🎉 <a href="https://google.com">(Meer info)</a>
                     </div>
                     <div class="content">
                         {{ victual.description }}
@@ -74,6 +77,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+a, a:visited, a:hover, a:active {
+  color:rgb(59, 147, 206);
+}
+
 .main {
     width: 100%;
     // background-color: red;
@@ -121,6 +128,12 @@ export default {
                     opacity: 0.4;
                 }
             }
+            .happyHourNameIcon {
+                display: inline;
+                height: 1em;
+                vertical-align: middle;
+                margin-left: 10px;
+            }
             .price {
                 float: right;
             }
@@ -147,6 +160,10 @@ export default {
             transition: height 100ms ease-in-out;
             .unavailability {
                 color: rgb(255, 0, 0);
+                padding-bottom: 20px;
+            }
+            .happyHourDescription {
+                color: rgb(122, 167, 40);
                 padding-bottom: 20px;
             }
             .content {
@@ -188,6 +205,9 @@ export default {
                 .name {
                     font-weight: bold;
                     font-size: 120%;
+                }
+                .happyHourNameIcon {
+                    display: none;
                 }
             }
             .additionalInfoProvidedIcon {

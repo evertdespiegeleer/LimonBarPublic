@@ -9,6 +9,9 @@
 import TopBar from './components/TopBar.vue'
 import VictualsSwipeBox from './components/VictualsSwipeBox.vue'
 
+const mixpanel = require('mixpanel-browser')
+mixpanel.init("2e6022fc214a93e01854d9ddd5d9a25d")
+
 export default {
   name: 'app',
   components: {
