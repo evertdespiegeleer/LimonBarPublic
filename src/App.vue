@@ -23,6 +23,11 @@ const getJsonFromUrl = () => {
 
 import mixpanel from 'mixpanel-browser'
 mixpanel.init("2e6022fc214a93e01854d9ddd5d9a25d")
+if (!localStorage.getTime("userId")) {
+  localStorage.setItem("userId", String(Math.round(Math.random()*1000000)) + String((new Date).getTime()))
+}
+mixpanel.identify(localStorage.getItem("userId"))
+localStorage.getTime("userId")
 mixpanel.track("pageload", {"tablenumber": getJsonFromUrl()['t']})
 
 export default {
