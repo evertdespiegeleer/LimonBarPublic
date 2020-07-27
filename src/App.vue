@@ -9,8 +9,21 @@
 import TopBar from './components/TopBar.vue'
 import VictualsSwipeBox from './components/VictualsSwipeBox.vue'
 
-const mixpanel = require('mixpanel-browser')
+const getJsonFromUrl = () => {
+  let url = window.location.search
+  if(!url) url = location.search;
+  var query = url.substr(1);
+  var result = {};
+  query.split("&").forEach(function(part) {
+    var item = part.split("=");
+    result[item[0]] = decodeURIComponent(item[1]);
+  });
+  return result;
+}
+
+import mixpanel from 'mixpanel-browser'
 mixpanel.init("2e6022fc214a93e01854d9ddd5d9a25d")
+mixpanel.track("pageload", {"tablenumber": getJsonFromUrl()['t']})
 
 export default {
   name: 'app',
