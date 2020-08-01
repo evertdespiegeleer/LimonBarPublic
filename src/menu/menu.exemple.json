@@ -122,7 +122,7 @@
                             "gluten": true
                         },
                         "happyHour": false,
-                        "available": true,
+                        "available": false,
                         "availabilityRestrictionsByDay": false,
                         "daysAvailable": [false, false, true, false, false, false, false]
                     },
