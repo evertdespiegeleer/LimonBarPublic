@@ -14,7 +14,7 @@
             </div>
             <div class="victual" v-bind:key="victual.id" :ref="victual.id" :class="{ 'extraInfoProvided': victual.extraInfoProvided || victual.availabilityRestrictionsByDay }" v-for="victual in subclass.victuals" >
                 <div class="defaultLine" @click="toggleAdditionalInfo(victual)">
-                    <p class="name" :class="{ 'unavailable': !victual.available }">{{ victual.victualName }}<img v-if="victual.happyHour && victual.available" class="happyHourNameIcon" src="./../assets/happyhour-01.svg"/></p>
+                    <p class="name" :class="{ 'unavailable': !victual.available }">{{ victual.victualName }}<img v-if="victual.happyHour && victual.available && happyHourWithinTimestamps(victual.happyHourStart, victual.happyHourStop)" class="happyHourNameIcon" src="./../assets/happyhour-01.svg"/></p>
                     <p class="price">&euro; {{ addZeroes(victual.price) }}</p>
                 </div>
                 <div class="additionalInfoProvidedIcon">
@@ -24,8 +24,8 @@
                     <div class="unavailability" v-if="!victual.available">
                         {{ victual.victualName }} is momenteel niet beschikbaar.
                     </div>
-                    <div v-if="victual.happyHour && victual.available" class="happyHourDescription">
-                        🎉 {{ victual.victualName }} is onderdeel van ons huidige happy hour! 🎉 <a href="https://google.com">(Meer info)</a>
+                    <div v-if="victual.happyHour && victual.available && happyHourWithinTimestamps(victual.happyHourStart, victual.happyHourStop)" class="happyHourDescription">
+                        🎉 {{ victual.victualName }} is onderdeel van ons huidige happy hour! 🎉 <a href="https://www.facebook.com/LimonBarHerzele/posts/128671195577240">(Meer info)</a>
                     </div>
                     <div class="content">
                         {{ victual.description }}
@@ -71,6 +71,13 @@ export default {
         },
         getImgUrlVue(picUrl, victualId) {
             return require('@/assets/victualsPics/' + victualId + '/' + picUrl)
+        },
+        happyHourWithinTimestamps(startTime, endTime) {
+            const currentStamp = (new Date()).getTime()
+            let answer = true
+            if(currentStamp < startTime) answer = false
+            if(currentStamp > endTime) answer = false
+            return answer
         }
     }
 }
