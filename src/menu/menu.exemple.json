@@ -122,7 +122,7 @@
                             "gluten": true
                         },
                         "happyHour": false,
-                        "available": false,
+                        "available": true,
                         "availabilityRestrictionsByDay": false,
                         "daysAvailable": [false, false, true, false, false, false, false]
                     },
@@ -291,7 +291,7 @@
                             "nuts": false,
                             "gluten": true
                         },
-                        "happyHour": true,
+                        "happyHour": false,
                         "happyHourStart": 1596294000000,
                         "happyHourStop": 1596297600000,
                         "available": true,
@@ -314,7 +314,7 @@
                             "nuts": false,
                             "gluten": true
                         },
-                        "happyHour": true,
+                        "happyHour": false,
                         "happyHourStart": 1596294000000,
                         "happyHourStop": 1596297600000,
                         "available": true,
@@ -336,7 +336,7 @@
                             "nuts": false,
                             "gluten": true
                         },
-                        "happyHour": true,
+                        "happyHour": false,
                         "happyHourStart": 1596294000000,
                         "happyHourStop": 1596297600000,
                         "available": true,
@@ -358,7 +358,7 @@
                             "nuts": false,
                             "gluten": true
                         },
-                        "happyHour": true,
+                        "happyHour": false,
                         "happyHourStart": 1596294000000,
                         "happyHourStop": 1596297600000,
                         "available": true,
@@ -381,7 +381,7 @@
                             "nuts": false,
                             "gluten": true
                         },
-                        "happyHour": true,
+                        "happyHour": false,
                         "happyHourStart": 1596294000000,
                         "happyHourStop": 1596297600000,
                         "available": true,
@@ -403,7 +403,7 @@
                             "nuts": false,
                             "gluten": true
                         },
-                        "happyHour": true,
+                        "happyHour": false,
                         "happyHourStart": 1596294000000,
                         "happyHourStop": 1596297600000,
                         "available": true,
