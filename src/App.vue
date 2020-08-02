@@ -8,6 +8,7 @@
 <script>
 import TopBar from './components/TopBar.vue'
 import VictualsSwipeBox from './components/VictualsSwipeBox.vue'
+import mixpanel from 'mixpanel-browser'
 
 const getJsonFromUrl = () => {
   let url = window.location.search
@@ -21,7 +22,18 @@ const getJsonFromUrl = () => {
   return result;
 }
 
-import mixpanel from 'mixpanel-browser'
+if(!getJsonFromUrl()['cacheless']) {
+  let url = window.location.href
+  const rand = Math.floor(Math.random() * 1000000)
+  if (url.indexOf('?') > -1){
+    url += `&cacheless=${rand}`
+  }
+  else{
+   url += `?cacheless=${rand}`
+  }
+  window.location.href = url
+}
+else {
 mixpanel.init("2e6022fc214a93e01854d9ddd5d9a25d")
 if (!localStorage.getItem("userId")) {
   localStorage.setItem("userId", String(Math.round(Math.random()*1000000)) + String((new Date).getTime()))
@@ -29,6 +41,7 @@ if (!localStorage.getItem("userId")) {
 mixpanel.identify(localStorage.getItem("userId"))
 localStorage.getItem("userId")
 mixpanel.track("pageload", {"tablenumber": getJsonFromUrl()['t']})
+}
 
 export default {
   name: 'app',
