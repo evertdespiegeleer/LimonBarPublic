@@ -42,7 +42,7 @@
                             "gluten": true
                         },
                         "happyHour": false,
-                        "available": true,
+                        "available": false,
                         "availabilityRestrictionsByDay": false,
                         "daysAvailable": [false, false, true, false, false, false, false]
                     },
@@ -502,7 +502,7 @@
                             "gluten": false
                         },
                         "happyHour": false,
-                        "available": true,
+                        "available": false,
                         "availabilityRestrictionsByDay": false,
                         "daysAvailable": [true, true, true, true, true, true, true]
                     },
@@ -542,7 +542,7 @@
                             "gluten": false
                         },
                         "happyHour": false,
-                        "available": true,
+                        "available": false,
                         "availabilityRestrictionsByDay": false,
                         "daysAvailable": [true, true, true, true, true, true, true]
                     },
@@ -582,7 +582,7 @@
                             "gluten": false
                         },
                         "happyHour": false,
-                        "available": true,
+                        "available": false,
                         "availabilityRestrictionsByDay": false,
                         "daysAvailable": [true, true, true, true, true, true, true]
                     },
